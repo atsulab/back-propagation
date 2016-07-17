@@ -12,9 +12,9 @@ using namespace std;
 #define LEARN 50 //Epoch
 #define SAMPLE 60000 //Number of Training Data Set
 #define SAMPLE2 10000 //Number of Test Data Set
-#define INPUT 784 //Number of Input Layor Unit
-#define HIDDEN 625 //Number of Hidden Layor Unit
-#define OUTPUT 10 //Number of Output Layor Unit
+#define INPUT 784 //Number of Input Layer Unit
+#define HIDDEN 625 //Number of Hidden Layer Unit
+#define OUTPUT 10 //Number of Output Layer Unit
 #define ALPHA 0.001 // Learning Rate
 
 double x[INPUT + 1], a[HIDDEN + 1], y[OUTPUT]; //x:Input a:Hidden y:Output //x[@+1],a[@+1] => bias or threshold
